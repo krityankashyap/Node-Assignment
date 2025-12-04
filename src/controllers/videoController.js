@@ -1,4 +1,4 @@
-import * as videoService from '../services/videoService.js';
+import * as videoService from '../service/videoService.js';
 
 export const createVideo = async (req, res) => {
   try {

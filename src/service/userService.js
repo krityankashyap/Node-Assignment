@@ -1,4 +1,4 @@
-import User from '../models/User.js';
+import User from '../model/User.js';
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from '../config/index.js';
 

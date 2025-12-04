@@ -1,6 +1,6 @@
-import Video from '../models/Video.js';
-import User from '../models/User.js';
-import Analytics from '../models/Analytics.js';
+import Video from '../model/video.js';
+import User from '../model/User.js';
+import Analytics from '../model/Analytics.js';
 
 export const createVideo = async (title, description, url) => {
   if (!title || !description || !url) {
