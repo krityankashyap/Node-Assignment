@@ -1,5 +1,6 @@
 import express from 'express';
-import { PORT } from './src/config/index.js';
+import { PORT } from './config/index.js';
+
 
 const app = express();
 
@@ -11,5 +12,5 @@ app.get('/ping', (req,res)=>{
 });
 
 app.listen(PORT, ()=>{
-  console.log("Server is started at PORT: ",3000);
+  console.log("Server is started at PORT: ",PORT);
 })
